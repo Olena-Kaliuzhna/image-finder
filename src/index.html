@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>image-finder</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Что вы хотите найти?</h1>
+    <form class="search-form" id="search-form">
+      <input
+        class="search-input"
+        type="text"
+        name="query"
+        autocomplete="off"
+        placeholder="Ищем картинки..."
+      />
+    </form>
+    <ul class="gallery"></ul>
+    <div class="for-observe"></div>
+    <button id="upbutton" type="button" class="button is-hidden"></button>
+    <template>
+      <div class="modal"></div>
+    </template>
+  </body>
+</html>
